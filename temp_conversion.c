@@ -26,7 +26,7 @@ int main(){
             printf("\nEnter your temp in (C): ");
             scanf("%lf", &temp);
             temp = (temp *9/5) +32 ;
-            printf("The temp in K is: %.1lf", temp);
+            printf("The temp in F is: %.1lf", temp);
         }
 
     }if (unit == 'F'){
